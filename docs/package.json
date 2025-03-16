@@ -15,10 +15,10 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@docusaurus/core": "3.5.2",
-    "@docusaurus/plugin-content-docs": "^3.5.2",
-    "@docusaurus/preset-classic": "3.5.2",
-    "@docusaurus/theme-mermaid": "^3.5.2",
+    "@docusaurus/core": "^3.7.0",
+    "@docusaurus/plugin-content-docs": "^3.7.0",
+    "@docusaurus/preset-classic": "^3.7.0",
+    "@docusaurus/theme-mermaid": "^3.7.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@heroicons/react": "^2.1.5",
@@ -33,9 +33,9 @@
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.5.2",
-    "@docusaurus/tsconfig": "3.5.2",
-    "@docusaurus/types": "3.5.2",
+    "@docusaurus/module-type-aliases": "^3.7.0",
+    "@docusaurus/tsconfig": "^3.7.0",
+    "@docusaurus/types": "^3.7.0",
     "typescript": "~5.5.2"
   },
   "browserslist": {
@@ -46,11 +46,7 @@
     ],
     "development": [
       "last 3 chrome version",
-      "last 3 firefox version",
-      "last 5 safari version"
+      "last 3 firefox version"
     ]
-  },
-  "engines": {
-    "node": ">=18.0"
   }
 }
