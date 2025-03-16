@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "entryPoint": "./src/App.tsx",
+    "name": "native_demo",
+    "slug": "native_demo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "area",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.area.googleauth",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1c1c23"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "ios": {
+      "bundleIdentifier": "com.area.googleauth"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "948a8d85-f7c6-4292-8808-cfaae3b03bb4"
+      }
+    }
+  }
+}

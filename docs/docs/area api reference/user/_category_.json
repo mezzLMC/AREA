@@ -1,0 +1,8 @@
+{
+  "label": "User Endpoints",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Explore the API endpoints for managing user accounts on the AREA server. These endpoints enable functionalities for user registration, authentication, and profile management, ensuring secure access and personalized experiences within the system."
+  }
+}

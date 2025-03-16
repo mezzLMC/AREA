@@ -1,0 +1,43 @@
+// /*
+// ** EPITECH PROJECT, 2024
+// ** web
+// ** File description:
+// ** route.test
+// */
+
+// import { testApiHandler } from "next-test-api-route-handler"; // Must always be first
+// import { describe, it } from 'node:test';
+// import { jest } from '@jest/globals';
+// import { Client } from "pg";
+// import { drizzle, NodePgDatabase } from "drizzle-orm/node-postgres";
+// import * as appHandler from './route';
+
+// let orm : NodePgDatabase<Record<string, never>> | null = null;
+
+// describe('POST /auth/login', async () => {
+
+//     beforeAll(async () => {
+
+//         const client = new Client({
+//             user: process.env.POSTGRES_USER,
+//             host: process.env.POSTGRES_HOST,
+//             database: process.env.POSTGRES_TEST_DB,
+//             password: process.env.POSTGRES_PASSWORD,
+//         });
+
+//         await client.connect();
+//         orm = drizzle(client);
+//         jest.mock('@shared/database', () => ({
+//                 default: async () => orm
+//             }));
+        
+//     });
+//     it('should return 200 and a session token when a valid email and password is provided', async () => {
+
+//         await testApiHandler({
+//             appHandler,
+//             test: async ({ fetch }) => {
+                
+//             }})
+//     });
+// });

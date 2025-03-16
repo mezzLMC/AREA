@@ -1,0 +1,13 @@
+diff --git a/ios/nativedemo.xcodeproj/project.pbxproj b/ios/nativedemo.xcodeproj/project.pbxproj
+index 87bac04..92fb1a0 100644
+--- a/ios/nativedemo.xcodeproj/project.pbxproj
++++ b/ios/nativedemo.xcodeproj/project.pbxproj
+@@ -189,7 +189,7 @@
+ 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
+ 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+ 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
+-				EEBF5F9D3C3346EA8AAF3060 /* nativedemo-Bridging-Header.h in Resources */,
++				8A77F3CD25224D96A444E5FD /* nativedemo-Bridging-Header.h in Resources */,
+ 			);
+ 			runOnlyForDeploymentPostprocessing = 0;
+ 		};

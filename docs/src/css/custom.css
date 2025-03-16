@@ -1,0 +1,61 @@
+:root {
+  --ifm-color-primary: #148f77;
+  --ifm-color-primary-dark: #148f77;
+  --ifm-color-primary-darker: #148f77;
+  --ifm-color-primary-darkest: #148f77;
+  --ifm-color-primary-light: #148f77;
+  --ifm-color-primary-lighter: #148f77;
+  --ifm-color-primary-lightest: #148f77;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #2e2e2e;
+  --ifm-color-primary-dark: #292929;
+  --ifm-color-primary-darker: #212121;
+  --ifm-color-primary-darkest: #000000;
+  --ifm-color-primary-light: #3d3d3d;
+  --ifm-color-primary-lighter: #484848;
+  --ifm-color-primary-lightest: #606060;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+}
+
+.custom-cards-wrapper {
+  color: black;
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 715px;
+  justify-content: flex-start;
+}
+
+.custom-cards-wrapper .custom-doc-card {
+  max-width: 320px;
+  width: 320px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.custom-cards-wrapper .custom-doc-card a {
+  height: 170px;
+  color: black;
+  text-decoration: none;
+}
+
+.custom-cards-wrapper .custom-doc-card h2 {
+  font-size: 1rem;
+}
+
+.custom-cards-wrapper .custom-doc-card:hover {
+  transform: scale(1.01);
+  transition: transform 0.2s;
+}
+
+.custom-cards-wrapper .custom-doc-card:hover h2 {
+  color: var(--ifm-color-primary);
+}
+
+.custom-cards-wrapper .custom-doc-card .cardDescription {
+  font-size: 0.9rem;
+  color: #666;
+}

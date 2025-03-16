@@ -1,0 +1,8 @@
+{
+  "label": "Auth Endpoints",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Explore the authentication API endpoints provided by the AREA server. These endpoints facilitate user registration, login, and Google authentication, enabling secure access and management of user sessions."
+  }
+}

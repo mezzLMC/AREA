@@ -1,0 +1,8 @@
+{
+  "label": "AREA API Reference",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Discover the various API endpoints exposed by the AREA server. These endpoints allow you to interact with the system, automate actions, and manage services seamlessly."
+  }
+}

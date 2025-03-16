@@ -1,0 +1,6 @@
+{
+    "watch": ["**/*.ts", "../shared/**/*.ts"], 
+    "ext": "ts,json",
+    "ignore": ["src/**/*.spec.ts"],
+    "exec": "yarn tsx index.ts"
+}

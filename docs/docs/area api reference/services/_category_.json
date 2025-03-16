@@ -1,0 +1,8 @@
+{
+  "label": "Services Endpoints",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Explore the API endpoints for managing services on the AREA server. These endpoints provide functionalities to create, retrieve, update, and delete services, ensuring seamless integration and management of service-related tasks."
+  }
+}

@@ -1,0 +1,45 @@
+/**
+ * @jest-environment node
+ * @eslint false
+ */
+
+// import { v4 as uuid } from 'uuid';
+// import { testApiHandler } from "next-test-api-route-handler"; // Must always be first
+// import { describe, it } from 'node:test';
+// import * as appHandler from './route';
+
+// describe('POST /auth/google', () => {
+//   it('should return 200 and a session token when front sends a valid code', async () => {
+
+//     const mockToken = uuid();
+
+//     await testApiHandler({
+//       appHandler,
+//       test: async ({ fetch }) => {
+//         const response = await fetch({ method: "GET" });
+//         expect(response.status).toBe(200);
+//         expect(response.body).toHaveProperty('token', mockToken);
+//         expect(response.body).toHaveProperty('id');
+//       },
+//     });
+
+//   });
+
+//   // it('should return 201 and a session token when a new user is created', async () => {
+
+//   //   const mockToken = uuid();
+//   //   const { req } = createMocks({
+//   //     method: 'POST',
+//   //     body: {code: 'valid-oauth-code-unknown-user'}
+//   //   });
+//   //   const response = await POST(req);
+//   //   if (!response) {
+//   //     throw new Error('Response is undefined');
+//   //   }
+//   //   expect(response.status).toBe(201);
+//   //   expect(response.body).toHaveProperty('token', mockToken);
+//   //   expect(response.body).toHaveProperty('id');
+    
+//   // });
+
+// });

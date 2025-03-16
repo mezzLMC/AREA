@@ -1,0 +1,12 @@
+diff --git a/android/app/build.gradle b/android/app/build.gradle
+index 9f513ae..6ecd8ac 100644
+--- a/android/app/build.gradle
++++ b/android/app/build.gradle
+@@ -116,6 +116,7 @@ android {
+         targetSdkVersion rootProject.ext.targetSdkVersion
+         versionCode 1
+         versionName "1.0.0"
++        manifestPlaceholders = [appAuthRedirectScheme: "com.area.googleauth"]
+     }
+     signingConfigs {
+         debug {

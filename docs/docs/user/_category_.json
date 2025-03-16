@@ -1,0 +1,8 @@
+{
+    "label": "User's Guide",
+    "position": 2,
+    "link": {
+      "type": "generated-index",
+      "description": "The AREA User Guide provides an overview of the main functionalities in both the web and mobile versions of the application. This guide will help you effectively navigate and use AREA."
+    }
+  }
