@@ -8,7 +8,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   url: 'http://localhost:8080/',
-  baseUrl: '/',
+  baseUrl: '/AREA/',
 
   organizationName: 'EpitechPromo2027',
   projectName: 'B-DEV-500-STG-5-1-area-mohamed.mazouz',
